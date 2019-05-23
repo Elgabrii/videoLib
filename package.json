@@ -8,10 +8,12 @@
     "test": "jest",
     "test:update": "jest -u",
     "test:coverage": "jest --coverage",
-    "dev" : "webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
-  "jest" : {
-    "snapshotSerializers": ["jest-serializer-enzyme"]
+  "jest": {
+    "snapshotSerializers": [
+      "jest-serializer-enzyme"
+    ]
   },
   "dependencies": {
     "axios": "0.16.1",
@@ -21,6 +23,7 @@
     "compression": "1.6.2",
     "cors": "2.8.3",
     "express": "4.15.3",
+    "flow": "^0.2.3",
     "lodash": "4.17.4",
     "preact": "8.1.0",
     "preact-compat": "3.16.0",
